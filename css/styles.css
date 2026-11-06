@@ -1,0 +1,68 @@
+/*Modelo RGB*/
+.rgb{
+    background-color: rgb(255,0,0);
+    color: rgb(48,24,24);
+}
+.rgb h3{
+    color:rgb(0,0,0);
+}
+
+/* modelo rgba */
+.rgba{
+    background-color: rgba(56, 43, 200,0.2);
+    color: rgba(48,24,24,1);
+}
+
+/* modelo hexadecimal */
+.hexadecimal{
+    background-color: #000;
+    color: #fff;
+}
+
+/* modelo hsl */
+.hsl{
+    background-color: hsl(234, 100%, 46%);
+    color: hsl(58, 51%, 70%);
+}
+
+/* modelo hsla */
+.hsla{
+    background-color: hsla(312, 49%, 37%, 0.406);
+}
+
+/*colores multinavegador*/
+.black{
+    color:black;
+}
+.white{
+    color:white;
+    background-color: black;
+}
+.salmon{
+    color:salmon;
+}
+.blue{
+    color:blue;
+}
+.lime{
+    color:lime;
+}
+
+.borde {
+    /* border-style: dotted;
+    border-color: red;
+    border-width: 10px; */
+    border: 10px dotted red;
+}
+
+.borde-interno {
+    border: 2px solid darkred;
+}
+
+.lineal {
+    background: linear-gradient(to top, red, blue);
+}
+
+.radial{
+    background-image: radial-gradient(ellipse, violet, rgb(255,4,4));
+}
